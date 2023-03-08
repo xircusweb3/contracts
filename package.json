@@ -4,6 +4,10 @@
   "private": true,
   "workspaces": [
     "apps/*",
+    "solidity/*",    
+    "move/*",
+    "rust/*",
+    "go/*",
     "packages/*"
   ],
   "scripts": {
