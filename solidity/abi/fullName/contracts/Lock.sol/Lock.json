@@ -1,0 +1,7 @@
+[
+  "constructor(uint256 _unlockTime) payable",
+  "event Withdrawal(uint256 amount, uint256 when)",
+  "function owner() view returns (address)",
+  "function unlockTime() view returns (uint256)",
+  "function withdraw()"
+]
