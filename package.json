@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "solidity/*",    
-    "move/*",
-    "rust/*",
-    "go/*",
+    "examples/*",
     "packages/*"
   ],
   "scripts": {

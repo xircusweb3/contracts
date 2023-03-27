@@ -1,0 +1,10 @@
+{
+  "name": "@xircus-web3/contracts",
+  "description": "Smart contracts handcrafted by Xircus",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "files": [
+    "**/*.sol",
+    "/abi"
+  ]
+}
