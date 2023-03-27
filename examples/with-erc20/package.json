@@ -1,5 +1,5 @@
 {
-  "name": "xircus-contract-starter",
+  "name": "with-erc20",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "scripts": {
@@ -8,9 +8,9 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@openzeppelin/contracts": "^4.8.2",
+    "@xircus-web3/contracts": "^1.0.0",
     "hardhat": "^2.13.0"
   },
   "dependencies": {
-    "@xircus-web3/contracts": "^1.0.0"
   }
 }
