@@ -799,6 +799,11 @@
   dependencies:
     antlr4ts "^0.5.0-alpha.4"
 
+"@thirdweb-dev/contracts@^3.4.5":
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts/-/contracts-3.4.5.tgz#8ea3f5ebef2f92023f40cf1f9fcb1c953065b7eb"
+  integrity sha512-HHiNBXlctfJOF0lRMHYuJP1dYczkoCua8Wqf/FkORISytaF4LYWkKdhIirwy8QWG2MNvzOyRwSekWf2y1diPsw==
+
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
   resolved "https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.9.tgz"

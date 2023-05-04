@@ -29,10 +29,24 @@ const chainIds = {
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.18",
-  gasReporter: {
-    enabled: (process.env.REPORT_GAS) ? true : false
+  solidity: {
+    version: '0.8.11',
+    settings: {
+      metadata: { bytecodeHash: 'ipfs' },
+      optimizer: {
+        enabled: true,
+        runs: 300
+      }
+    }
   },
+  gasReporter: {
+    enabled: false
+  },
+  dodoc: {
+    runOnCompile: true,
+    exclude: ['**/node_modules/**'],
+    keepFileStructure: false
+  }, 
   abiExporter: [
     {
       path: './abi/json',
